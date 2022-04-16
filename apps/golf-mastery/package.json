@@ -1,0 +1,6 @@
+{
+  "name": "golf-mastery",
+  "devDependencies": {
+    "@capacitor/cli": "^3.2.5"
+  }
+}
