@@ -1,0 +1,21 @@
+{
+  "root": "apps/blog",
+  "sourceRoot": "apps/blog/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "eleventy --input=./src --output=../../dist/packages/blog",
+        "cwd": "apps/blog"
+      }
+    },
+    "serve": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "eleventy --serve --input=./src --output=../../dist/packages/blog",
+        "cwd": "apps/blog"
+      }
+    }
+  }
+}
