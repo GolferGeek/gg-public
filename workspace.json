@@ -1,6 +1,8 @@
 {
   "version": 2,
   "projects": {
-    "blog": "apps/blog"
+    "blog": "apps/blog",
+    "golf-mastery-ion-golf-mastery": "apps/golf-mastery/ion-golf-mastery",
+    "golf-mastery-ion-golf-mastery-e2e": "apps/golf-mastery/ion-golf-mastery-e2e"
   }
 }

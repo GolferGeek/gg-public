@@ -1,0 +1,30 @@
+{
+  "root": "apps/golf-mastery/ion-golf-mastery-e2e",
+  "sourceRoot": "apps/golf-mastery/ion-golf-mastery-e2e/src",
+  "projectType": "application",
+  "targets": {
+    "e2e": {
+      "executor": "@nrwl/cypress:cypress",
+      "options": {
+        "cypressConfig": "apps/golf-mastery/ion-golf-mastery-e2e/cypress.json",
+        "devServerTarget": "golf-mastery-ion-golf-mastery:serve:development"
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "golf-mastery-ion-golf-mastery:serve:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "apps/golf-mastery/ion-golf-mastery-e2e/**/*.{js,ts}"
+        ]
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["golf-mastery-ion-golf-mastery"]
+}

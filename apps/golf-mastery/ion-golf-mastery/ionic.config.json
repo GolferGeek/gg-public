@@ -1,0 +1,7 @@
+{
+  "name": "ion-golf-mastery",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
