@@ -59,6 +59,7 @@
     "@capacitor/core": "^3.2.5",
     "@ionic/angular": "^5.8.3",
     "@nrwl/angular": "^13.10.2",
+    "@nrwl/nest": "^14.1.4",
     "@nxtend/capacitor": "^13.0.0",
     "rxjs": "~7.4.0",
     "tslib": "^2.0.0",
